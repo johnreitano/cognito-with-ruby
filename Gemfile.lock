@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.2.0)
+    aws-partitions (1.691.0)
+    aws-sdk-cognitoidentity (1.41.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-cognitoidentityprovider (1.72.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-core (3.168.4)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.651.0)
+      aws-sigv4 (~> 1.5)
+      jmespath (~> 1, >= 1.6.1)
+    aws-sigv4 (1.5.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    dotenv (2.7.6)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
+    jmespath (1.6.2)
+    thor (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk-cognitoidentity
+  aws-sdk-cognitoidentityprovider
+  dotenv
+  figaro
+
+BUNDLED WITH
+   2.1.4
